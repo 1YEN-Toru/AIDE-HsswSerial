@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map HsswSerial
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HsswSerial	KEYWORD1
+SerialHssw	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+Hssw_RX_BUF_MAX	LITERAL1
+
+Hssw_RTS_ENBL	LITERAL1
+Hssw_CTS_ENBL	LITERAL1
+Hssw_LGC_NEGA	LITERAL1
+
+HsswErrNo	LITERAL1
+HsswErrBaud	LITERAL1
+HsswErrParam	LITERAL1
+HsswErrRecv	LITERAL1
+HsswErrOvfl	LITERAL1
+HsswErrFrame0	LITERAL1
+HsswErrFrame1	LITERAL1
