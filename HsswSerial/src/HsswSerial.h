@@ -74,7 +74,7 @@ enum	HsswParam
 	// error code
 	HsswErrNo=0,						// no error
 	HsswErrBaud=-1,						// bad baud rate
-	HsswErrParam=-2,					// bad parameter
+	HsswErrBadParam=-2,					// bad parameter
 	HsswErrRecv=-3,						// receive error
 	HsswErrOvfl=-4,						// receive buffer overflow
 	HsswErrFrame0=-5,					// bad frame (start bit is not 0)

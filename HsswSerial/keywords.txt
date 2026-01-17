@@ -26,7 +26,7 @@ Hssw_LGC_NEGA	LITERAL1
 
 HsswErrNo	LITERAL1
 HsswErrBaud	LITERAL1
-HsswErrParam	LITERAL1
+HsswErrBadParam	LITERAL1
 HsswErrRecv	LITERAL1
 HsswErrOvfl	LITERAL1
 HsswErrFrame0	LITERAL1

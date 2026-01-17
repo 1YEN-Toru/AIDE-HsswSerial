@@ -91,7 +91,7 @@ int		pin_cts)
 	{
 		// ERROR: unsupported frame format
 		prescl=0;						// error status indicator
-		errcod=HsswErrParam;
+		errcod=HsswErrBadParam;
 		return;
 	}
 	pinMode (Hssw_pin_RXD, INPUT);
@@ -122,7 +122,7 @@ int		pin_cts)
 	{
 		// ERROR: bad pin assignment
 		prescl=0;						// error status indicator
-		errcod=HsswErrParam;
+		errcod=HsswErrBadParam;
 		return;
 	}
 
